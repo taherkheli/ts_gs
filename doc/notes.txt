@@ -6,3 +6,18 @@ Moved on TypeScript Getting Started
 we'd need npm -> we need Node.js isntalled or upgraded
 
 >choco upgrade nodejs
+
+added gitignore and messed with folder structure
+
+
+install typescript n save it as a dev dependency
+from pwsh embeddded in vscode
+>npm install typescript --save-dev
+
+due to --save-dev we now have a newer netry in package.json under devDependencies
+
+
+
+
+
+webpack is a tool for bundling client side resources
