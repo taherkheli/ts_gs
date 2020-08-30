@@ -25,7 +25,15 @@ finally to start the server i.e. make Node serve our pages on localhost port 808
 > npm start
 now we can browse to localhost:8080
 
+*************
 
+Now I need a tsconfig.json to specify to tsc compiler how i want it to behave. typescriptlang.org has plenty on it
+
+> tsc -v
+> tsc -h
+> tsc --init
+
+ 
 
 
 
