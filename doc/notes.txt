@@ -33,9 +33,13 @@ Now I need a tsconfig.json to specify to tsc compiler how i want it to behave. t
 > tsc -h
 > tsc --init
 
+now i have specified some settings for tsc to adhere to. 
  
+******************************
 
+ctrl + Enter activates intellisense
 
+webpackdev server is being used to serve the demo app to the browser
 
 
 webpack is a tool for bundling client side resources
