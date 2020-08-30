@@ -1,0 +1,8 @@
+
+Started with "Big Picture" by Simon Allardice
+
+Moved on TypeScript Getting Started
+
+we'd need npm -> we need Node.js isntalled or upgraded
+
+>choco upgrade nodejs
