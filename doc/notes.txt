@@ -5,16 +5,26 @@ Moved on TypeScript Getting Started
 
 we'd need npm -> we need Node.js isntalled or upgraded
 
->choco upgrade nodejs
-
-added gitignore and messed with folder structure
-
+> choco upgrade nodejs
 
 install typescript n save it as a dev dependency
 from pwsh embeddded in vscode
->npm install typescript --save-dev
+> npm install typescript --save-dev
 
-due to --save-dev we now have a newer netry in package.json under devDependencies
+due to --save-dev we now have a newer entry in package.json under devDependencies
+
+since I did a local install of tsc i.e. without -g switch, I had to then add it to my PATH 
+D:\github\ts_gs\node_modules\.bin
+
+then I can move to any folder with .ts in it and compile using
+> tsc 
+
+this creates my .js files which can then be used in html via src tag
+
+finally to start the server i.e. make Node serve our pages on localhost port 8080 we move to project root
+> npm start
+now we can browse to localhost:8080
+
 
 
 
