@@ -48,7 +48,17 @@ Mod3: Built-in Types
 ************************************************************
 Mod 4: Functions
 ************************************************************
+- function func(name : string, age ?: number)
+? means optional param
 
+- noImplicitAny flag enforces type safety in function parameters
+
+- function func(name : string, age : number = 42) means default will be used if
+ age is not passed at all or passed as undefined when invokin func
+
+- arrow functions are mostly used where a function expects a function as one of its input params
+
+. TS functions are much better than JS functions because of type annotations. Easier to read n less prone to bugs
 
 ************************************************************
 ************************************************************
