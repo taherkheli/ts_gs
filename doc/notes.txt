@@ -35,7 +35,27 @@ Now I need a tsconfig.json to specify to tsc compiler how i want it to behave. t
 
 now i have specified some settings for tsc to adhere to. 
  
-******************************
+************************************************************
+Mod3: Built-in Types
+************************************************************
+- backticks ` around a string mean that you can use ${varName} just like C#
+- Types in TS are an optional feature because you can declare a variable as 'Any' 
+  which means exhibit JS behaviour
+- --strictNullChecks compiler option means 'null' + 'undefined' cannot be assigned to any type of variable
+  to explicity allow this for a type we use a union
+  e.g. let nullableString : null | string;
+
+************************************************************
+Mod 4: Functions
+************************************************************
+
+
+************************************************************
+************************************************************
+************************************************************
+
+************************************************************
+
 
 ctrl + Enter activates intellisense
 
