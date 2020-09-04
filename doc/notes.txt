@@ -61,6 +61,33 @@ Mod 4: Functions
 . TS functions are much better than JS functions because of type annotations. Easier to read n less prone to bugs
 
 ************************************************************
+Mod 5: Custom types 
+************************************************************
+- an interface can 'extend' an existing interface just like a class can extend another class
+a class implements an interface using 'implements' keyword 
+
+- TS type system is structural. Duck typing. If something walks and quacks like a duck it better be a duck.
+
+- interfaces are used for compile time type checking by the compiler and do not translate into any real code
+evidence: 
+projRoot> .\node_modules\.bin\tsc .\src\app\person.ts
+the generated person.js file is completely empty
+
+- Acessor methods (getters n setters) syntax is just like any other method plus get n set
+unlike C# this keyword is mandatory when accessing internal properties inside a class
+
+- an interface can be directly implemented by an object literal though u'd normally use a class implementing an
+interface and new up an instance
+
+- using tsc to compile mutiple src files to a specfied output directory
+.\node_modules\.bin\tsc .\src\app\person.ts .\src\app\player.ts .\src\app\app.ts --outDir ".\dist\"
+
+- typing 'ref' at the top of a file is a mechnism to add refs => telling tsc to fetch the referenced code before compiling this file
+
+- in your tsconfig, you cna use 'outFile' to bundle everything together in a single file instead fo creating mutiple files after compilation
+
+
+************************************************************
 ************************************************************
 ************************************************************
 
