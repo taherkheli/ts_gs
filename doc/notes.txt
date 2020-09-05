@@ -119,10 +119,17 @@ tsc emits EES2015 with Classic while CommonJS with Node
 - now we have seen how it all works, we can offload the work back to webpack which thru some config flags does it all neatly for us 
   webpack bundles it all n spits out bundle.js which we then hook with the browser in index.html  
 
+************************************************************
+Mod 7:  Type Declaration Files *.d.ts
+************************************************************
 
+- basically just wrappers around js libraries
+
+- a great place for locating such files on Github is 'DefinitelyTyped'
  
-
-
+- Example: intsall lodash
+projRoot> npm install lodash
+projRoot> npm install --save @types/lodash
 
 
 **************************************************************************************************************************************
