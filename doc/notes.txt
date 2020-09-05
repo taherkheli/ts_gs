@@ -86,6 +86,27 @@ interface and new up an instance
 
 - in your tsconfig, you cna use 'outFile' to bundle everything together in a single file instead fo creating mutiple files after compilation
 
+- contructor is always named as 'constructor'
+
+- if a parameter to a ctor is precedded by a access modifier, thats a short way of saying theres a property that gets assigned via ctor
+
+************************************************************
+Mod 5: Modules 
+************************************************************
+
+- a packaging /encapsulation mechanism that helsp organize code better in larger apps
+
+- various options and tools available to assist in workin with modules. For details check a course on js modules fundamentals
+
+- import and export keywords are used for adding references. Various options dictate how much u want to import n wat u wanna call it n so n
+
+- 'outFile' option in tsconfig puts everything in one file. OK for a small app but for modules we need to choose what type of modules do
+ we want to be produced by the compiler
+"module": "commonjs"
+
+- modules provide wat refs did but have some additional features that offer greater flexibility and ease of use  
+
+
 
 ************************************************************
 ************************************************************
