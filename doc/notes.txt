@@ -91,9 +91,8 @@ interface and new up an instance
 - if a parameter to a ctor is precedded by a access modifier, thats a short way of saying theres a property that gets assigned via ctor
 
 ************************************************************
-Mod 5: Modules 
+Mod 6: Modules 
 ************************************************************
-
 - a packaging /encapsulation mechanism that helsp organize code better in larger apps
 
 - various options and tools available to assist in workin with modules. For details check a course on js modules fundamentals
@@ -106,18 +105,25 @@ Mod 5: Modules
 
 - modules provide wat refs did but have some additional features that offer greater flexibility and ease of use  
 
+- in general, use relative referencing for own modules and non-relative references for 3rd party modules
+
+- 2 main options for resolving modules
+tsc --moduleResolution Classic | Node 
+tsc emits EES2015 with Classic while CommonJS with Node
+=> Node moduel resolution is more powerful and flexible
+
+- "traceResolution": true is very useful in figuring out why tsc can't locate something n where is it lookin for it
+
+- plenty of tsc options are available to control or fine tune how u want tsc to resolve modules
+
+- now we have seen how it all works, we can offload the work back to webpack which thru some config flags does it all neatly for us 
+  webpack bundles it all n spits out bundle.js which we then hook with the browser in index.html  
 
 
-************************************************************
-************************************************************
-************************************************************
-
-************************************************************
+ 
 
 
+
+
+**************************************************************************************************************************************
 ctrl + Enter activates intellisense
-
-webpackdev server is being used to serve the demo app to the browser
-
-
-webpack is a tool for bundling client side resources
